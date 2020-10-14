@@ -6,6 +6,15 @@
     <title>Unity WebGL Player | Bounce</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <style>
+      #download {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 5%;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -21,6 +30,9 @@
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Bounce</div>
       </div>
+    </div>
+    <div id="download">
+      <h2>If not working, try <a href="game.zip" download="Bounce.zip">downloading this</a></h2>
     </div>
     <script>
       var buildUrl = "Build";
